@@ -1,0 +1,206 @@
+{
+  "greet": {
+    "keywords": [
+      "hello",
+      "hi",
+      "hey alex",
+      "yo alex",
+      "what's up alex",
+      "hey there",
+      "hello alex",
+      "hi there",
+      "good morning alex",
+      "good afternoon alex",
+      "good evening alex"
+    ],
+    "response": "Hello! How are you?"
+  },
+
+  "how_are_you": {
+    "keywords": [
+      "how are you",
+      "how's it going",
+      "how are you doing",
+      "how you feeling alex",
+      "what's up how are you",
+      "are you okay",
+      "how's everything"
+    ],
+    "response": "I'm doing great! Thanks for asking."
+  },
+
+  "tell_joke": {
+    "keywords": [
+      "tell me a joke",
+      "joke",
+      "make me laugh",
+      "say something funny",
+      "give me something funny",
+      "make me smile",
+      "tell me something funny"
+    ],
+    "response_function": "tell_joke"
+  },
+
+  "who_are_you": {
+    "keywords": [
+      "who are you",
+      "what is your name",
+      "tell me about yourself",
+      "who am i talking to",
+      "who is alex",
+      "what are you"
+    ],
+    "response": "I'm Alex, your personal voice assistant."
+  },
+
+  "time": {
+    "keywords": [
+      "time",
+      "what time is it",
+      "current time",
+      "tell me the time",
+      "what's the time now",
+      "can you tell me the time",
+      "what time do we have"
+    ],
+    "response_function": "get_time"
+  },
+
+  "date": {
+    "keywords": [
+      "date",
+      "what's the date",
+      "today's date",
+      "tell me the date",
+      "what day is it",
+      "what date is today",
+      "what day do we have today"
+    ],
+    "response_function": "get_date"
+  },
+
+  "light_on": {
+    "keywords": [
+      "turn on light",
+      "lights on",
+      "switch on light",
+      "turn on the lights",
+      "can you turn on the lights",
+      "alex lights on",
+      "make it brighter",
+      "i need light",
+      "it's dark turn on the light"
+    ],
+    "response": "Turning on the light."
+  },
+
+  "light_off": {
+    "keywords": [
+      "turn off light",
+      "lights off",
+      "switch off light",
+      "turn off the lights",
+      "alex lights off",
+      "make it dark",
+      "kill the lights",
+      "shut off the lights",
+      "turn the light down"
+    ],
+    "response": "Turning off the light."
+  },
+
+  "notepad": {
+    "keywords": [
+      "open notepad",
+      "start notepad",
+      "launch notepad",
+      "open notes",
+      "open a text editor",
+      "make a note",
+      "write this down alex",
+      "take a note"
+    ],
+    "response": "Opening Notepad.",
+    "action": "notepad"
+  },
+
+  "play_music": {
+    "keywords": [
+      "play music",
+      "play song",
+      "play track",
+      "play music by",
+      "play song by",
+      "start music",
+      "start playing songs",
+      "i want to listen to music",
+      "put on a song",
+      "alex play some music",
+      "play something"
+    ],
+    "response": "Playing music.",
+    "action": "music"
+  },
+
+  "play_network_music": {
+    "keywords": [
+      "play online music",
+      "play song online",
+      "play track online",
+      "stream music",
+      "play song from internet",
+      "play music from internet",
+      "start streaming music",
+      "stream me a song",
+      "play something online"
+    ],
+    "response": "Streaming music from online.",
+    "action": "play_network_music"
+  },
+
+  "stop_music": {
+    "keywords": [
+      "stop music",
+      "pause music",
+      "stop the song",
+      "pause the song",
+      "stop playing",
+      "pause it",
+      "stop the music alex"
+    ],
+    "action": "stop_music",
+    "response": "Music stopped."
+  },
+
+  "sleep": {
+    "keywords": [
+      "sleep",
+      "stop",
+      "go to sleep",
+      "rest now",
+      "take a break alex",
+      "alex go sleep",
+      "turn off alex",
+      "standby mode"
+    ],
+    "response": "Okay, going to sleep.",
+    "action": "sleep"
+  },
+
+  "next_music": {
+    "keywords": [
+      "next music",
+      "skip song",
+      "next track",
+      "skip track",
+      "play next",
+      "go to next song",
+      "change the song",
+      "move to next",
+      "alex next"
+    ],
+    "action": "next_music",
+    "response": "Skipping to the next track."
+  }
+}
